@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libxlsxwriter",
+        "repositoryURL": "https://github.com/jmcnamara/libxlsxwriter",
+        "state": {
+          "branch": "main",
+          "revision": "f6e8305d1b70610705e03c15f337ce317c46be8a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
