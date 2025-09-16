@@ -255,3 +255,9 @@ private func makeCString(from str: String) -> UnsafePointer<CChar> {
   str.withCString { result.initialize(from: $0, count: count) }
   return UnsafePointer(result)
 }
+
+public extension Worksheet {
+    func freeze(row: UInt32, col: UInt16) {
+        worksheet_freeze_panes(lxw_worksheet, row, col)
+    }
+}
